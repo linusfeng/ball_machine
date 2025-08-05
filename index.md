@@ -1,6 +1,6 @@
 # Tennis Ball Shooter
 
-add some description stuff here once its finished...
+add some description stuff here once it's finished...
 
   
 # First Version
@@ -19,4 +19,63 @@ To power my first version, I simply used an Arduino Uno and a L298 motor driver 
 
 ![V1 Wiring Diagram](v1_wiring_diagram.pdf)
 
-insert picture of wiring
+insert picture of wiring IRL...
+
+## Code
+
+```c++
+// Motor A connections
+int enA = 9;
+int in1 = 8;
+int in2 = 7;
+// Motor B connections
+int enB = 3;
+int in3 = 5;
+int in4 = 4;
+
+
+void setup() {
+ // put your setup code here, to run once:
+ // Motor A connections
+ int enA = 9;
+ int in1 = 8;
+ int in2 = 7;
+ // Motor B connections
+ int enB = 3;
+ int in3 = 5;
+ int in4 = 4;
+ // Set all the motor control pins to outputs
+ pinMode(enA, OUTPUT);
+ pinMode(enB, OUTPUT);
+ pinMode(in1, OUTPUT);
+ pinMode(in2, OUTPUT);
+ pinMode(in3, OUTPUT);
+ pinMode(in4, OUTPUT);
+  // Turn off motors - Initial state
+ digitalWrite(in1, LOW);
+ digitalWrite(in2, LOW);
+ digitalWrite(in3, LOW);
+ digitalWrite(in4, LOW);
+}
+
+
+void loop() {
+ // put your main code here, to run repeatedly:
+ analogWrite(enA, 255);
+ analogWrite(enB, 255);
+ digitalWrite(in1, HIGH);
+ digitalWrite(in2, LOW);
+ digitalWrite(in3, HIGH);
+ digitalWrite(in4, LOW);
+
+
+}
+```
+
+# Second Version
+
+I only CADed the second version of my ball machine. This was partly because I finished the CAD during the summer, when I didn't have access to my schools robotics workshop, so I couldn't machine any of the parts that I needed to build it. But also, I already had plans for the third version, and I knew that if I built the second version, I would end up wasting a lot of materials, so I let the second version stay as a CAD, and moved on to CADing the third version.
+
+## CAD
+
+![V2 CAD](v2_cad.pdf)
