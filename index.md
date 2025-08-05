@@ -74,7 +74,7 @@ void loop() {
 
 # Second Version
 
-I only CADed the second version of my ball machine. This was partly because I finished the CAD during the summer, when I didn't have access to my schools robotics workshop, so I couldn't machine any of the parts that I needed to build it. But also, I already had plans for the third version, and I knew that if I built the second version, I would end up wasting a lot of materials, so I let the second version stay as a CAD, and moved on to CADing the third version.
+I only CADed the second version of my ball machine. This was partly because I finished the CAD during the summer, when I didn't have access to my school's robotics workshop, so I couldn't machine any of the parts that I needed to build it. But also, I already had plans for the third version, and I knew that if I built the second version, I would end up wasting a lot of materials, so I let the second version stay as a CAD, and moved on to CADing the third version. The second version utilized Neo brushless motors instead of Pololu motors, which can spin at 5,676 rpm. It also has a basket attached to the top, which allows it to feed balls at a set rate.
 
 ## CAD
 
