@@ -11,3 +11,4 @@ My first version of my ball machine was a design to test whether the method that
 
 The first thing that I did when building my first version was CAD a design for my shooter. For any mechanical project, creating a CAD is essential because it allows you to know exactly how you want to build your design and what parts you need to build it without actually having to spend money on things like parts.
 
+![V1 Pololu](V1.pdf)
