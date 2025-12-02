@@ -1,6 +1,6 @@
 # Tennis Ball Shooter
 
-add some description stuff here once it's finished...
+This is a passion project that I worked on mostly over the summer, where I created a prototype for a working tennis ball feeding machine.
 
   
 # First Version
