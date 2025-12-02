@@ -19,7 +19,7 @@ To power my first version, I simply used an Arduino Uno and a L298 motor driver 
 
 ![V1 Wiring Diagram](v1_wiring_diagram.pdf)
 
-insert picture of wiring IRL...
+
 
 ## Code
 
