@@ -1,6 +1,6 @@
 # Tennis Ball Shooter
 
-add some description stuff here once it's finished...
+This is a passion project that I worked on mostly over the summer, where I created a prototype for a working tennis ball feeding machine.
 
   
 # First Version
@@ -19,7 +19,7 @@ To power my first version, I simply used an Arduino Uno and a L298 motor driver 
 
 ![V1 Wiring Diagram](v1_wiring_diagram.pdf)
 
-insert picture of wiring IRL...
+
 
 ## Code
 
